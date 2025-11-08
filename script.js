@@ -43,3 +43,27 @@
 
 // const example = {x: 10 , y: 20}
 // console.log(Object.getOwnPropertyNames(example));;
+
+
+
+
+// ____________Start  ES6  ___________ Tempelete Literals
+// let name = 'Ali';
+// console.log(`Hello, ${name}! Howare you`);
+
+// Short Syntax for funtions
+// const add2 = (a, b) => a+b;
+// console.log(add2(2, 3));
+
+// function greet (name = 'Guest'){
+//     console.log(`Hello, ${name}`);
+// } 
+// greet();
+// greet('Hira');
+
+const arr1 = [1,2];
+const arr2 = [...arr1, 3, 4];
+console.log(arr2);
+const obj1 = {a: 1};
+const obj2 = {...obj1, b: 2};
+console.log(obj2);
